@@ -1,3 +1,3 @@
 # Skill-form
 THIS IS A REPOSITORY CONTAINING THE REGISTRATION FORM AND LOGIN FORM
-![](photos/Screenshot (735).png)
+![](photos/filename Screenshot(735).png)
