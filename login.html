@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LOGIN</title>
+        <link rel="stylesheet"  href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap">
+    </head>
+        <style>
+            body{
+                background-image: url(https://www.youtubestock.com/static/preview0/stock-video-no-copyright-videos-hd-motion-graphics-movies-background-animation-clips-download-101568.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                font-family: 'Poppins', sans-serif;
+                }
+            div
+            {
+             background-color: white;
+             padding: 10px 100px  10px  60px ;
+             margin: 100px 500px 100px 500px;
+             box-shadow: 5px 5px 50px gray;
+             border-radius: 10px;
+            } 
+            .btn
+            {
+                background-color: purple;
+                margin: 30px -10px ;
+                width:200px;
+                height:50px;
+                box-shadow: 5px 5px 20px gray;
+                border-radius: 10px;
+                font-weight: bolder;
+                font-size: 15px;
+            }
+            h1
+            {
+                height:50px;
+                position:relative;
+                width: 500px;
+                text-align: left;
+            }
+           
+input[type=email], select {
+  width: 250px;
+  height:35px;
+  margin:0px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 250px;
+  height:35px;
+  margin:0px -5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: left;
+}
+ </style>
+    <body>
+        <div>
+        <h1>LOG IN</h1>
+        <form>
+            <label for="email">EMAIL</label><br>
+            <input type="email" placeholder="ENTER EMAIL" required><br></br>
+            <label for="password">PASSWORD</label><br>
+            <input type="password" placeholder="ENTER PASSWORD" required><br></br>
+            <input type="checkbox" id="remember" required>
+            <label for="remember">Remember Me</label><br>
+            <input class="btn" type="button" value="SUBMIT">
+        </form>
+        </div>
+    </body>
+</html>

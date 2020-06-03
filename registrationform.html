@@ -2,26 +2,113 @@
 <html>
     <head>
         <title>Registration Form</title>
+        <link rel="stylesheet"  href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap">
     </head>
+    <style>
+            body{
+                background-image: url(https://www.youtubestock.com/static/preview0/stock-video-no-copyright-videos-hd-motion-graphics-movies-background-animation-clips-download-101568.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                font-family: 'Poppins', sans-serif;
+                }
+            div
+            {
+             background-color: white;
+             padding: 10px 100px  0px  50px ;
+             margin: 50px 400px 50px 500px ;
+             box-shadow: 5px 5px 50px gray;
+             border-radius: 10px;
+            } 
+            .btn
+            {
+                font-weight: bolder;
+                font-size: 20px;
+                background-color: purple;
+                margin: 20px 50px ;
+                width:250px;
+                height:50px;
+                box-shadow: 5px 5px 20px gray;
+                border-radius: 10px;
+            }
+input[type=text], select {
+  width: 350px;
+  height:40px;
+  margin:0px -5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: left;
+}
+input[type=email], select {
+  width: 350px;
+  height:40px;
+  margin:0px -5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: left;
+}
+input[type=number], select {
+  width: 350px;
+  height:40px;
+  margin:0px -5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: left;
+}
+input[type=date], select {
+  width: 350px;
+  height:40px;
+  margin:0px -5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: left;
+}
+input[type=password], select {
+  width: 350px;
+  height:40px;
+  margin:0px -5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: left;
+}
+h1
+{
+font-size: 30px;
+}
+p
+{
+    margin: 5px 50px 150px 0px ;
+    font-stretch: extra-expanded;
+}
+</style>
     <body>
+        <div>
+                <h1>REGISTRATION FORM</h1>
         <form>
-            <label for="name">FULL NAME:-</label><br></br>
-            <input id="name" type="text"  placeholder="FIRST NAME" required>
-            <input id="name" type="text"  placeholder="MIDDLE NAME" >
-            <input id="name" type="text"  placeholder="LAST NAME" required><br></br>
-            <label for="email">EMAIL:-</label><br></br>
+            <label for="name">NAME</label><br>
+            <input id="name" type="text"  placeholder="ENTER NAME" required><br></br>
+            <label for="email">EMAIL ID</label><br>
             <input id="email" type="email" placeholder="eg:-xyz@example.com" required><br></br>
-            <label for="phone">PHONE NUMBER:-</label><br></br>
-            <input id="phone" type="number" required><br></br>
-            <label for="birth">DATE OF BIRTH:-</label><br></br>
+            <label for="phone">PHONE NUMBER</label><br>
+            <input id="phone" type="number" placeholder="ENTER NUMBER" required><br></br>
+            <label for="birth">DATE OF BIRTH</label><br>
             <input id="birth" type="date" required><br></br>
-            <label for="gender">GENDER:-</label><br></br>
-            <input id="gender" type="radio" value="female">
-            <input id="gender" type="radio" value="male"><br></br>
-            <label for="pass" >PASSWORD:-</label><br></br>
-            <input id="pass" type="password" placeholder="PASSWORD" required><br></br>
-            <input type="button" value="SUBMIT FORM">
-            <a href="signup.html"><input type="button" value="SIGNUP"></a>
+            <label for="gender">GENDER</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+             <label for="other">Other</label><br></br>
+            <label for="pass" >PASSWORD</label><br>
+            <input id="pass" type="password" placeholder="PASSWORD" required><br>
+            <input class="btn" type="button" value="SUBMIT ">
+            <p>Registered already???<a href="login.html">Login Here!</a></p>
         </form>
+        </div>
     </body>
 </html>
