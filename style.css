@@ -1,10 +1,8 @@
 
 body{
     background-image: url(https://image.freepik.com/free-vector/light-purple-pink-vector-abstract-polygonal-template_6869-2386.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
-    background-attachment:scroll;
     }
 .form
 {
